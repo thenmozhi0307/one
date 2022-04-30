@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form to fill basic details</h1>
+    <hr />
+    <form>
+        <fieldset>
+            <legend>Login Info</legend>
+            User Name: <input type="text" placeholder="Name" />
+            <br />
+            Password: <input type="password" placeholder="Password" />
+            <br />
+            Date of birth: <input type="date" />
+            <br />
+            E-mail:<input type="email" />
+            <br />
+            Age:<input type="number" min="20" max="70" />
+            <br />
+
+        </fieldset>
+        <br />
+
+        <label>Gender</label>
+        
+            <input type="radio" value="Male" name="Gender" /> MALE
+        <br />
+        
+            <input type="radio" value="Female" name="Gender" /> FEMALE
+       
+
+        <div>
+            About:<textarea></textarea>
+        </div>
+        <div>
+            <input type="file" /> 
+        </div>
+
+        <fieldset>
+            <legend>Animals</legend>
+            <input type="checkbox" value="Cat" /> CAT
+            <br />
+            <input type="checkbox" value="Dog" /> DOG
+            <br />
+            <input type="checkbox" value="Both" /> BOTH
+        </fieldset>
+        <label>Friends</label>
+        <select>
+            <option value="Achuu"> Achuu</option>
+            <option value="Sow">Sow</option>
+            <option value="Koushi">Koushi</option>
+        </select>
+        <br />
+        <label>Friends1</label>
+    <select multiple>
+        <option> Achuu</option>
+        <option>Sow</option>
+        <option>Koushi</option>
+        <option> Achuu1</option>
+        <option>Sow1</option>
+        <option>Koushi1</option>
+    </select>
+        <br />
+        <input type="submit" value="Save" />
+        <input type="reset" value="Reset Password" />
+        <input type="button" value="chumma" />
+    </form> 
+
+</body>
+</html>
